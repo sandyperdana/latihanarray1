@@ -1,0 +1,16 @@
+public class latihanarray1
+{
+	public static void main(String[] args)
+	{
+		int array[];
+		array = new int[5];
+
+		array[0] = 5;
+		array[1] = 8;
+		array[2] = 20;
+		for(int i=0; i<5; i++)
+		{
+			System.out.println("Array = "+array[i]);
+		}
+	}
+}
